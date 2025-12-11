@@ -3,7 +3,7 @@ package org.example.sensor;
 public class MethaneSensor extends Sensor {
     @Override
     public double getDangerousThreshold() {
-        return 45000; // Порог для метана
+        return 45000;
     }
 
     @Override
